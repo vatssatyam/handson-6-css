@@ -1,0 +1,294 @@
+body {
+    background-image: url(./shara\ desert.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.containeer1 {
+    height: 100px;
+
+}
+
+.menubar {
+    display: flex;
+    padding: 10px;
+    /* align-items: center; */
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+ul,
+li {
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+text-decoration: none;
+    padding: 10px 10px;
+    margin: 0px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.containeer2 {
+    width: 50%;
+
+    height: 600px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 190px 100px;
+
+}
+
+.heading {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.button {
+    display: flex;
+    justify-content: left;
+    padding-right: 75%;
+    padding-top: 5%;
+}
+
+button {
+    color: black;
+    font-weight: bold;
+    padding: 8px 38px;
+    background-color: white;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid white;
+}
+
+.meddilebox {
+    display: flex;
+}
+
+.containeer3 {
+    display: grid;
+    grid-template-columns: 230px 230px;
+    grid-template-rows: 250px 250px;
+    height: 500px;
+    row-gap: 30px;
+    column-gap: 60px;
+    /* width: 80%; */
+    /* align-items: center; */
+
+}
+
+.box {
+
+    border-radius: 15px;
+    transition-duration: .5s;
+
+}
+
+.box1 {
+    background-image: url(./pic-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p {
+    font-size: 10px;
+    padding-left: 30px;
+    color: white;
+}
+
+span {
+    margin-top: 20px;
+}
+
+.h {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 20px;
+    /* margin-top: 10px; */
+}
+
+.box2 {
+    background-image: url(./pic-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box3 {
+    background-image: url(./pic-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box4 {
+    background-image: url(./pic-4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box:hover {
+    /* position: relative;
+    bottom: 15px; */
+    transform: translateY(-15px);
+
+}
+
+@media screen and (min-width:500px) and (max-width:900px) {
+    body {
+
+        background-size: cover;
+        background-repeat: repeat;
+
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .containeer2 {
+        width: 98%;
+
+        height: 250px;
+        color: white;
+        padding-top: -200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+
+    }
+
+    .containeer3 {
+        grid-template-columns: 450px;
+        display: grid;
+
+        grid-template-rows: 250px 250px;
+        height: 1200px;
+        row-gap: 30px;
+        column-gap: 60px;
+    }
+
+    .box {
+        background-position: center;
+    }
+
+    .meddilebox {
+        flex-direction: column;
+        margin-top: -100px;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .heading {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    ul,
+    li {
+
+        margin: 0px 10px;
+    }
+
+    .box:hover {
+        /* position: relative;
+        top: 0px; */
+        transform: translateY(15px);
+
+    }
+}
+
+
+@media screen and (min-width:280px) and (max-width:500px) {
+
+    body {
+
+        background-size: cover;
+        background-repeat: repeat;
+
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .containeer2 {
+        width: 98%;
+
+        height: 250px;
+        color: white;
+        padding-top: -200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+
+    }
+
+    .containeer3 {
+        grid-template-columns: 250px;
+        display: grid;
+
+        grid-template-rows: 250px 250px;
+        height: 1300px;
+        row-gap: 30px;
+        column-gap: 60px;
+    }
+
+    .box {
+        background-position: center;
+    }
+
+    .meddilebox {
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .box:hover {
+        transform: translateY(-15px);
+
+    }
+
+    .menubar {
+        display: flex;
+        padding: 5px;
+
+    }
+
+    ul,
+    li {
+
+        display: block;
+
+        padding: 5px 5px;
+        margin: 0px 20px;
+    }
+
+
+
+    .heading {
+        font-size: 30px;
+
+    }
+
+}
